@@ -1,0 +1,151 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Archivos de origen">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Archivos de encabezado">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="Archivos de recursos">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Archivos de encabezado\DX9 Stuff">
+      <UniqueIdentifier>{044031cc-857e-46c1-8d08-8ad379c04833}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Archivos de encabezado\DX9 Renderer">
+      <UniqueIdentifier>{4c643ae4-ae3d-40d6-bb64-be623d91e352}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Archivos de encabezado\Hooks">
+      <UniqueIdentifier>{7b3bf185-2e52-40d6-913f-6343866cd217}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Archivos de encabezado\Hooks\Detour">
+      <UniqueIdentifier>{554a6aae-fcc9-4224-81e3-67db10d742e4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Archivos de encabezado\Hooks\Detour\Lib">
+      <UniqueIdentifier>{9ac11e75-adc3-47bf-93c8-68765008aea6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Archivos de encabezado\Hooks\Detour\Header">
+      <UniqueIdentifier>{5a125f4a-1d9c-4867-a199-717e2ea33c10}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Archivos de encabezado\Hooks\MinHook">
+      <UniqueIdentifier>{cc7b9f1b-eb9c-4262-97e3-024401769870}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Archivos de encabezado\Hooks\MinHook\Lib">
+      <UniqueIdentifier>{7ed10d58-2579-4447-848c-f0161c12dae1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Archivos de encabezado\Hooks\MinHook\Src">
+      <UniqueIdentifier>{800c0b60-2902-4eed-a5c8-be67a284edb7}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="DLLMain.cpp">
+      <Filter>Archivos de origen</Filter>
+    </ClCompile>
+    <ClCompile Include="MinHook\buffer.c">
+      <Filter>Archivos de encabezado\Hooks\MinHook\Src</Filter>
+    </ClCompile>
+    <ClCompile Include="MinHook\hook.c">
+      <Filter>Archivos de encabezado\Hooks\MinHook\Src</Filter>
+    </ClCompile>
+    <ClCompile Include="MinHook\trampoline.c">
+      <Filter>Archivos de encabezado\Hooks\MinHook\Src</Filter>
+    </ClCompile>
+    <ClCompile Include="MinHook\hde\hde32.c">
+      <Filter>Archivos de encabezado\Hooks\MinHook\Src</Filter>
+    </ClCompile>
+    <ClCompile Include="MinHook\hde\hde64.c">
+      <Filter>Archivos de encabezado\Hooks\MinHook\Src</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="detours.h">
+      <Filter>Archivos de encabezado\Hooks\Detour\Header</Filter>
+    </ClInclude>
+    <ClInclude Include="d3dx9.h">
+      <Filter>Archivos de encabezado\DX9 Stuff</Filter>
+    </ClInclude>
+    <ClInclude Include="DXStuff\d3dx9anim.h">
+      <Filter>Archivos de encabezado\DX9 Stuff</Filter>
+    </ClInclude>
+    <ClInclude Include="DXStuff\d3dx9core.h">
+      <Filter>Archivos de encabezado\DX9 Stuff</Filter>
+    </ClInclude>
+    <ClInclude Include="DXStuff\d3dx9effect.h">
+      <Filter>Archivos de encabezado\DX9 Stuff</Filter>
+    </ClInclude>
+    <ClInclude Include="DXStuff\d3dx9math.h">
+      <Filter>Archivos de encabezado\DX9 Stuff</Filter>
+    </ClInclude>
+    <ClInclude Include="DXStuff\d3dx9mesh.h">
+      <Filter>Archivos de encabezado\DX9 Stuff</Filter>
+    </ClInclude>
+    <ClInclude Include="DXStuff\d3dx9shader.h">
+      <Filter>Archivos de encabezado\DX9 Stuff</Filter>
+    </ClInclude>
+    <ClInclude Include="DXStuff\d3dx9shape.h">
+      <Filter>Archivos de encabezado\DX9 Stuff</Filter>
+    </ClInclude>
+    <ClInclude Include="DXStuff\d3dx9tex.h">
+      <Filter>Archivos de encabezado\DX9 Stuff</Filter>
+    </ClInclude>
+    <ClInclude Include="DXStuff\d3dx9xof.h">
+      <Filter>Archivos de encabezado\DX9 Stuff</Filter>
+    </ClInclude>
+    <ClInclude Include="RendererBlabla.h">
+      <Filter>Archivos de encabezado\DX9 Renderer</Filter>
+    </ClInclude>
+    <ClInclude Include="MinHook\buffer.h">
+      <Filter>Archivos de encabezado\Hooks\MinHook\Src</Filter>
+    </ClInclude>
+    <ClInclude Include="MinHook\trampoline.h">
+      <Filter>Archivos de encabezado\Hooks\MinHook\Src</Filter>
+    </ClInclude>
+    <ClInclude Include="MinHook\hde\hde32.h">
+      <Filter>Archivos de encabezado\Hooks\MinHook\Src</Filter>
+    </ClInclude>
+    <ClInclude Include="MinHook\hde\hde64.h">
+      <Filter>Archivos de encabezado\Hooks\MinHook\Src</Filter>
+    </ClInclude>
+    <ClInclude Include="MinHook\hde\pstdint.h">
+      <Filter>Archivos de encabezado\Hooks\MinHook\Src</Filter>
+    </ClInclude>
+    <ClInclude Include="MinHook\hde\table32.h">
+      <Filter>Archivos de encabezado\Hooks\MinHook\Src</Filter>
+    </ClInclude>
+    <ClInclude Include="MinHook\hde\table64.h">
+      <Filter>Archivos de encabezado\Hooks\MinHook\Src</Filter>
+    </ClInclude>
+    <ClInclude Include="MinHook\MinHook.h">
+      <Filter>Archivos de encabezado\Hooks\MinHook</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <Library Include="detours.lib">
+      <Filter>Archivos de encabezado\Hooks\Detour\Lib</Filter>
+    </Library>
+    <Library Include="d3dx9.lib">
+      <Filter>Archivos de encabezado\DX9 Stuff</Filter>
+    </Library>
+    <Library Include="MinHook\libMinHook-x86-v90-md.lib">
+      <Filter>Archivos de encabezado\Hooks\MinHook\Lib</Filter>
+    </Library>
+    <Library Include="MinHook\libMinHook-x86-v90-mdd.lib">
+      <Filter>Archivos de encabezado\Hooks\MinHook\Lib</Filter>
+    </Library>
+    <Library Include="MinHook\libMinHook-x86-v90-mt.lib">
+      <Filter>Archivos de encabezado\Hooks\MinHook\Lib</Filter>
+    </Library>
+    <Library Include="MinHook\libMinHook-x86-v90-mtd.lib">
+      <Filter>Archivos de encabezado\Hooks\MinHook\Lib</Filter>
+    </Library>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="DXStuff\d3dx9math.inl">
+      <Filter>Archivos de encabezado\DX9 Stuff</Filter>
+    </None>
+  </ItemGroup>
+</Project>
